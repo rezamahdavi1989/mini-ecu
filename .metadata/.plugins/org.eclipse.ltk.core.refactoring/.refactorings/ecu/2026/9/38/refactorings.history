@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ecu/ecu.h&apos; to &apos;ecu_types.h.h&apos;" description="Rename resource &apos;ecu.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ecu.h" name="ecu_types.h.h" stamp="1789387265868" updateReferences="true"/>&#x0A;&#x0A;<refactoring comment="Rename resource &apos;ecu/ecu_types.h.h&apos; to &apos;ecu_types.h&apos;" description="Rename resource &apos;ecu_types.h.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ecu_types.h.h" name="ecu_types.h" stamp="1789387447479" updateReferences="true"/>
+</session>

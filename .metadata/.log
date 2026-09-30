@@ -1,0 +1,334 @@
+!SESSION 2026-09-14 15:23:46.622 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-09-14 15:24:26.768
+!MESSAGE Log4j2 initialized with config file C:\Users\rm\Desktop\New folder\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-09-14 15:24:53.888
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-14 15:25:22.042
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM1
+COM5
+COM4
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-14 15:25:22.044
+!MESSAGE port: COM1
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-14 15:25:22.045
+!MESSAGE port: COM5
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-14 15:25:22.045
+!MESSAGE port: COM4
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2026-09-14 15:25:38.981
+!MESSAGE No repository found at https://download.eclipse.org/releases/2024-09.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2026-09-14 15:26:20.040
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://sw-center.st.com/stm32cubeide/eclipse/2020-06.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:417)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:721)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:697)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:697)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:164)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:144)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:83)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2026-09-14 15:26:20.041
+!MESSAGE No repository found at https://sw-center.st.com/stm32cubeide/eclipse/2020-06.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2026-09-14 15:26:20.046
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at https://sw-center.st.com/stm32cubeide/eclipse.
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:180)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:697)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:697)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:164)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:144)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:83)
+Caused by: org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://sw-center.st.com/stm32cubeide/eclipse/2020-06.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:417)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:721)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	... 18 more
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1002 2026-09-14 15:26:20.047
+!MESSAGE Unable to read repository at https://sw-center.st.com/stm32cubeide/eclipse.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://sw-center.st.com/stm32cubeide/eclipse/2020-06.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:417)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:721)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:697)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:697)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:164)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:144)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:83)
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 4 1000 2026-09-14 15:26:20.047
+!MESSAGE No repository found at https://sw-center.st.com/stm32cubeide/eclipse/2020-06.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2026-09-14 15:26:20.076
+!MESSAGE Unable to read repository at https://sw-center.st.com/stm32cubeide/updatesite1.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at https://sw-center.st.com/stm32cubeide/eclipse.
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:180)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:697)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:697)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:164)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:144)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:83)
+Caused by: org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://sw-center.st.com/stm32cubeide/eclipse/2020-06.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:417)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:721)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	... 18 more
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1002 2026-09-14 15:26:20.076
+!MESSAGE Unable to read repository at https://sw-center.st.com/stm32cubeide/eclipse.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://sw-center.st.com/stm32cubeide/eclipse/2020-06.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:417)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:721)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:697)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:697)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:164)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:144)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:83)
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 4 1000 2026-09-14 15:26:20.076
+!MESSAGE No repository found at https://sw-center.st.com/stm32cubeide/eclipse/2020-06.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2026-09-14 15:26:21.182
+!MESSAGE No repository found at https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2026-09-14 15:26:23.197
+!MESSAGE No repository found at https://download.eclipse.org/tools/cdt/releases/latest.
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-09-14 15:27:19.706
+!MESSAGE Error: Cannot run program "1gcc": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "1gcc": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:450)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:147)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:134)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory$Builder.start(ProcessFactory.java:273)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:366)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:189)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:808)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:736)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:601)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-09-14 15:27:19.946
+!MESSAGE Error: Cannot run program "1g++": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "1g++": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:450)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:147)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:134)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory$Builder.start(ProcessFactory.java:273)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:366)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:189)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:808)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:736)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:601)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-09-14 15:27:20.084
+!MESSAGE Indexed 'ecu' (۰ sources, ۰ headers) in ۰٫۰۰۳ sec: ۰ declarations; ۰ references; ۰ unresolved inclusions; ۰ syntax errors; ۰ unresolved names (۰٪)
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-09-14 15:27:20.561
+!MESSAGE Error: Cannot run program "1gcc": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "1gcc": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:450)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:147)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:134)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory$Builder.start(ProcessFactory.java:273)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:366)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:189)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:808)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:736)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:601)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-09-14 15:27:20.694
+!MESSAGE Error: Cannot run program "1g++": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "1g++": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:450)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:147)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:134)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory$Builder.start(ProcessFactory.java:273)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:366)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:189)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:808)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:736)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:601)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-09-14 15:27:20.854
+!MESSAGE Error: Cannot run program "1gcc": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "1gcc": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:450)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:147)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:134)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory$Builder.start(ProcessFactory.java:273)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:366)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:189)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:808)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:736)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:601)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-09-14 15:27:20.980
+!MESSAGE Error: Cannot run program "1g++": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "1g++": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:450)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:147)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:134)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory$Builder.start(ProcessFactory.java:273)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:366)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:189)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:808)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:736)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:601)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-09-14 15:27:21.178
+!MESSAGE Error: Cannot run program "1gcc": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "1gcc": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:450)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:147)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:134)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory$Builder.start(ProcessFactory.java:273)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:366)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:189)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:808)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:736)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:601)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-09-14 15:27:21.353
+!MESSAGE Error: Cannot run program "1g++": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "1g++": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:450)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:147)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:134)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory$Builder.start(ProcessFactory.java:273)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:366)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:189)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:808)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:736)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:601)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:527)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
